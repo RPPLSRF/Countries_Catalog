@@ -1,4 +1,8 @@
+Preview: https://countries-catalog-rithpanhapich.vercel.app/
 
+My Linkedin: https://www.linkedin.com/in/rith-panhapich/
+
+My Portfolio: https://rith-panhapich.w3spaces.com/
 
 ### Countries Catalog Implementation
 1. Please use this free api to get related data - https://restcountries.com/
@@ -20,16 +24,22 @@
 
 Go to the project directory
 
-Install dependencies
+Install dependencies:
 
 ```bash
   npm install
 ```
 
-Start the server
+Start the server:
 
 ```bash
   npm run dev
 ```
+Note:
+```diff
+@@    Fuzzy search has not been implemented yet    @@
 
-* BUG: Antarctica and Heard Island is unclickable, need to reload website.
+- BUG: Antarctica and Heard Island is unclickable, need to reload website!
+
++ Everything else works as intended.
+```
